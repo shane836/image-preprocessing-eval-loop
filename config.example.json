@@ -1,0 +1,30 @@
+{
+  "models": {
+    "soul": "soul_cinematic",
+    "sunburst": "gpt_image_2_5",
+    "seedance": "seedance_2_5"
+  },
+  "state": {
+    "scene": "Static indoor kitchen, matte drywall, natural wood cabinets, fixed soft window light",
+    "modifiers": "matte finishes, micro-surface imperfections, subtle camera grain",
+    "seed": 42,
+    "strength": 0.35
+  },
+  "mask": "background-mask.png",
+  "max_loops": 5,
+  "max_credits": 0,
+  "job_timeout_seconds": 1800,
+  "rubric": {
+    "white_luma": 240,
+    "min_blob_pixels": 64,
+    "flat_laplacian_variance": 5.0,
+    "max_flat_white_fraction": 0.003,
+    "min_spatial_grain_std": 1.2,
+    "max_temporal_std": 2.0,
+    "max_flicker_luma": 2.0,
+    "max_step_flow_px": 0.5,
+    "max_anchor_flow_px": 0.75,
+    "max_shimmer_luma": 3.0,
+    "flow_width": 640
+  }
+}

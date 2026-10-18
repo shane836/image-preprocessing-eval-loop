@@ -1,0 +1,27 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Local runtime
+.venv/
+__pycache__/
+.pytest_cache/
+runs/
+# Private experiments, media, archives and provider receipts
+kitchen-pilot/
+work/
+HANDOFF.md
+relocation-manifest.json
+catalog-snapshot.json
+validation-results.json
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.mp4
+*.avi
+*.zip
+*.jsonl
+!examples/kitchen-source.png
